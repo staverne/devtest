@@ -1,6 +1,12 @@
+Install application:
+
+  $ npm install
+
+Build TS to JS:
+
+  $ ./node_modules/.bin/webpack
 
 Run application:
 
-  $ npm install
-  $ ./node_modules/.bin/webpack .
-  $ firefox index.xthml
+  $ python2 -m SimpleHTTPServer 8000
+  $ firefox http://localhost:8000
