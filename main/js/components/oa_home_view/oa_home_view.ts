@@ -3,6 +3,8 @@ declare var LANGUAGE: string
 
 class HomeViewController{
 
+  public items: any[] = [1, 2, 3]
+
   public constructor(){}
 
   public $onInit(): void{
