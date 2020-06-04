@@ -37,9 +37,10 @@ app.factory('responseObserver', ($q: any, $window: any): any => {
 });
 
 app.component('oaHome', {
-  template: '<ng-outlet/>',
+  template: require('./app.html'),
   $routeConfig: [
     {path: '/', name: 'OaHomeView', component: 'oaHomeView', useAsDefault: true},
+    {path: '/todo', name: 'OaTodoView', component: 'oaTodoView'},
   ]
 } as any)
 app.value('$routerRootComponent', 'oaHome');

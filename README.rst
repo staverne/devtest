@@ -17,3 +17,7 @@ Run application server::
 Open app::
 
   $ firefox http://localhost:8000
+
+Aller voir::
+
+  $ firefox http://localhost:8000/#!/todo
