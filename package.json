@@ -28,7 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^3.0.2",
     "@typescript-eslint/parser": "^3.0.2",
     "acorn": "^6.1.1",
-    "angular": "1.7.8",
+    "angular": "1.8.0",
     "angular-base64": "2.0.5",
     "angular-formly": "8.4.0",
     "angular-i18n": "1.7.8",
