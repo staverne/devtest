@@ -73,7 +73,7 @@
     "signature_pad": "3.0.0-beta.3",
     "style-loader": "^0.23.1",
     "textcomplete": "^0.17.1",
-    "three": "0.93.0",
+    "three": "0.137.0",
     "ts-loader": "7.0.5",
     "typescript": "3.9",
     "ui-bootstrap4": "^3.0.6",
